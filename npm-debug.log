@@ -1,0 +1,981 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'E:\\support\\www\\statckedit-cf',
+6 verbose install   [ 'express',
+6 verbose install     'ejs',
+6 verbose install     'request',
+6 verbose install     'ssh2',
+6 verbose install     'compression',
+6 verbose install     'serve-static',
+6 verbose install     'gulp',
+6 verbose install     'gulp-requirejs',
+6 verbose install     'gulp-jshint',
+6 verbose install     'gulp-uglify',
+6 verbose install     'gulp-less',
+6 verbose install     'bower-requirejs',
+6 verbose install     'gulp-inject',
+6 verbose install     'run-sequence',
+6 verbose install     'gulp-clean',
+6 verbose install     'gulp-replace',
+6 verbose install     'gulp-bump',
+6 verbose install     'gulp-util',
+6 verbose install     'knox',
+6 verbose install     'mime',
+6 verbose install     'event-stream' ] ]
+7 info preinstall stackedit@4.3.11
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'express@^4.8.5', null ]
+10 verbose cache add name=undefined spec="express@^4.8.5" args=["express@^4.8.5",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'express@^4.8.5',
+11 verbose parsed url   path: 'express@^4.8.5',
+11 verbose parsed url   href: 'express@^4.8.5' }
+12 verbose cache add [ 'ejs@~0.8.4', null ]
+13 verbose cache add name=undefined spec="ejs@~0.8.4" args=["ejs@~0.8.4",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'ejs@~0.8.4',
+14 verbose parsed url   path: 'ejs@~0.8.4',
+14 verbose parsed url   href: 'ejs@~0.8.4' }
+15 verbose cache add [ 'request@~2.40.0', null ]
+16 verbose cache add name=undefined spec="request@~2.40.0" args=["request@~2.40.0",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'request@~2.40.0',
+17 verbose parsed url   path: 'request@~2.40.0',
+17 verbose parsed url   href: 'request@~2.40.0' }
+18 verbose cache add [ 'ssh2@^0.3.5', null ]
+19 verbose cache add name=undefined spec="ssh2@^0.3.5" args=["ssh2@^0.3.5",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'ssh2@^0.3.5',
+20 verbose parsed url   path: 'ssh2@^0.3.5',
+20 verbose parsed url   href: 'ssh2@^0.3.5' }
+21 verbose cache add [ 'compression@^1.0.11', null ]
+22 verbose cache add name=undefined spec="compression@^1.0.11" args=["compression@^1.0.11",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'compression@^1.0.11',
+23 verbose parsed url   path: 'compression@^1.0.11',
+23 verbose parsed url   href: 'compression@^1.0.11' }
+24 verbose cache add [ 'serve-static@^1.5.3', null ]
+25 verbose cache add name=undefined spec="serve-static@^1.5.3" args=["serve-static@^1.5.3",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'serve-static@^1.5.3',
+26 verbose parsed url   path: 'serve-static@^1.5.3',
+26 verbose parsed url   href: 'serve-static@^1.5.3' }
+27 verbose cache add [ 'gulp@^3.8.7', null ]
+28 verbose cache add name=undefined spec="gulp@^3.8.7" args=["gulp@^3.8.7",null]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'gulp@^3.8.7',
+29 verbose parsed url   path: 'gulp@^3.8.7',
+29 verbose parsed url   href: 'gulp@^3.8.7' }
+30 verbose cache add [ 'gulp-requirejs@^0.1.3', null ]
+31 verbose cache add name=undefined spec="gulp-requirejs@^0.1.3" args=["gulp-requirejs@^0.1.3",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'gulp-requirejs@^0.1.3',
+32 verbose parsed url   path: 'gulp-requirejs@^0.1.3',
+32 verbose parsed url   href: 'gulp-requirejs@^0.1.3' }
+33 verbose cache add [ 'gulp-jshint@^1.8.4', null ]
+34 verbose cache add name=undefined spec="gulp-jshint@^1.8.4" args=["gulp-jshint@^1.8.4",null]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: 'gulp-jshint@^1.8.4',
+35 verbose parsed url   path: 'gulp-jshint@^1.8.4',
+35 verbose parsed url   href: 'gulp-jshint@^1.8.4' }
+36 verbose cache add [ 'gulp-uglify@^1.1.0', null ]
+37 verbose cache add name=undefined spec="gulp-uglify@^1.1.0" args=["gulp-uglify@^1.1.0",null]
+38 verbose parsed url { protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: 'gulp-uglify@^1.1.0',
+38 verbose parsed url   path: 'gulp-uglify@^1.1.0',
+38 verbose parsed url   href: 'gulp-uglify@^1.1.0' }
+39 verbose cache add [ 'gulp-less@^1.3.5', null ]
+40 verbose cache add name=undefined spec="gulp-less@^1.3.5" args=["gulp-less@^1.3.5",null]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: 'gulp-less@^1.3.5',
+41 verbose parsed url   path: 'gulp-less@^1.3.5',
+41 verbose parsed url   href: 'gulp-less@^1.3.5' }
+42 verbose cache add [ 'bower-requirejs@^1.1.0', null ]
+43 verbose cache add name=undefined spec="bower-requirejs@^1.1.0" args=["bower-requirejs@^1.1.0",null]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'bower-requirejs@^1.1.0',
+44 verbose parsed url   path: 'bower-requirejs@^1.1.0',
+44 verbose parsed url   href: 'bower-requirejs@^1.1.0' }
+45 verbose cache add [ 'gulp-inject@git://github.com/benweet/gulp-inject.git#8bd702d143a578e3b44290d82612ab808ee17281',
+45 verbose cache add   null ]
+46 verbose cache add name=undefined spec="gulp-inject@git://github.com/benweet/gulp-inject.git#8bd702d143a578e3b44290d82612ab808ee17281" args=["gulp-inject@git://github.com/benweet/gulp-inject.git#8bd702d143a578e3b44290d82612ab808ee17281",null]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: '#8bd702d143a578e3b44290d82612ab808ee17281',
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: 'gulp-inject@git://github.com/benweet/gulp-inject.git',
+47 verbose parsed url   path: 'gulp-inject@git://github.com/benweet/gulp-inject.git',
+47 verbose parsed url   href: 'gulp-inject@git://github.com/benweet/gulp-inject.git#8bd702d143a578e3b44290d82612ab808ee17281' }
+48 verbose cache add [ 'run-sequence@^0.3.6', null ]
+49 verbose cache add name=undefined spec="run-sequence@^0.3.6" args=["run-sequence@^0.3.6",null]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: 'run-sequence@^0.3.6',
+50 verbose parsed url   path: 'run-sequence@^0.3.6',
+50 verbose parsed url   href: 'run-sequence@^0.3.6' }
+51 verbose cache add [ 'gulp-clean@^0.3.1', null ]
+52 verbose cache add name=undefined spec="gulp-clean@^0.3.1" args=["gulp-clean@^0.3.1",null]
+53 verbose parsed url { protocol: null,
+53 verbose parsed url   slashes: null,
+53 verbose parsed url   auth: null,
+53 verbose parsed url   host: null,
+53 verbose parsed url   port: null,
+53 verbose parsed url   hostname: null,
+53 verbose parsed url   hash: null,
+53 verbose parsed url   search: null,
+53 verbose parsed url   query: null,
+53 verbose parsed url   pathname: 'gulp-clean@^0.3.1',
+53 verbose parsed url   path: 'gulp-clean@^0.3.1',
+53 verbose parsed url   href: 'gulp-clean@^0.3.1' }
+54 verbose cache add [ 'gulp-replace@^0.4.0', null ]
+55 verbose cache add name=undefined spec="gulp-replace@^0.4.0" args=["gulp-replace@^0.4.0",null]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: 'gulp-replace@^0.4.0',
+56 verbose parsed url   path: 'gulp-replace@^0.4.0',
+56 verbose parsed url   href: 'gulp-replace@^0.4.0' }
+57 verbose cache add name="express" spec="^4.8.5" args=["express","^4.8.5"]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: '^4.8.5',
+58 verbose parsed url   path: '^4.8.5',
+58 verbose parsed url   href: '^4.8.5' }
+59 verbose addNamed [ 'express', '^4.8.5' ]
+60 verbose addNamed [ null, '>=4.8.5-0 <5.0.0-0' ]
+61 verbose cache add name="ejs" spec="~0.8.4" args=["ejs","~0.8.4"]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: '~0.8.4',
+62 verbose parsed url   path: '~0.8.4',
+62 verbose parsed url   href: '~0.8.4' }
+63 verbose addNamed [ 'ejs', '~0.8.4' ]
+64 verbose addNamed [ null, '>=0.8.4-0 <0.9.0-0' ]
+65 verbose cache add name="request" spec="~2.40.0" args=["request","~2.40.0"]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: '~2.40.0',
+66 verbose parsed url   path: '~2.40.0',
+66 verbose parsed url   href: '~2.40.0' }
+67 verbose addNamed [ 'request', '~2.40.0' ]
+68 verbose addNamed [ null, '>=2.40.0-0 <2.41.0-0' ]
+69 verbose cache add name="ssh2" spec="^0.3.5" args=["ssh2","^0.3.5"]
+70 verbose parsed url { protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: '^0.3.5',
+70 verbose parsed url   path: '^0.3.5',
+70 verbose parsed url   href: '^0.3.5' }
+71 verbose addNamed [ 'ssh2', '^0.3.5' ]
+72 verbose addNamed [ null, '>=0.3.5-0 <0.4.0-0' ]
+73 verbose cache add name="compression" spec="^1.0.11" args=["compression","^1.0.11"]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: '^1.0.11',
+74 verbose parsed url   path: '^1.0.11',
+74 verbose parsed url   href: '^1.0.11' }
+75 verbose addNamed [ 'compression', '^1.0.11' ]
+76 verbose addNamed [ null, '>=1.0.11-0 <2.0.0-0' ]
+77 verbose cache add name="serve-static" spec="^1.5.3" args=["serve-static","^1.5.3"]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: '^1.5.3',
+78 verbose parsed url   path: '^1.5.3',
+78 verbose parsed url   href: '^1.5.3' }
+79 verbose addNamed [ 'serve-static', '^1.5.3' ]
+80 verbose addNamed [ null, '>=1.5.3-0 <2.0.0-0' ]
+81 verbose cache add name="gulp" spec="^3.8.7" args=["gulp","^3.8.7"]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: '^3.8.7',
+82 verbose parsed url   path: '^3.8.7',
+82 verbose parsed url   href: '^3.8.7' }
+83 verbose addNamed [ 'gulp', '^3.8.7' ]
+84 verbose addNamed [ null, '>=3.8.7-0 <4.0.0-0' ]
+85 verbose cache add name="gulp-requirejs" spec="^0.1.3" args=["gulp-requirejs","^0.1.3"]
+86 verbose parsed url { protocol: null,
+86 verbose parsed url   slashes: null,
+86 verbose parsed url   auth: null,
+86 verbose parsed url   host: null,
+86 verbose parsed url   port: null,
+86 verbose parsed url   hostname: null,
+86 verbose parsed url   hash: null,
+86 verbose parsed url   search: null,
+86 verbose parsed url   query: null,
+86 verbose parsed url   pathname: '^0.1.3',
+86 verbose parsed url   path: '^0.1.3',
+86 verbose parsed url   href: '^0.1.3' }
+87 verbose addNamed [ 'gulp-requirejs', '^0.1.3' ]
+88 verbose addNamed [ null, '>=0.1.3-0 <0.2.0-0' ]
+89 verbose cache add name="gulp-jshint" spec="^1.8.4" args=["gulp-jshint","^1.8.4"]
+90 verbose parsed url { protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: '^1.8.4',
+90 verbose parsed url   path: '^1.8.4',
+90 verbose parsed url   href: '^1.8.4' }
+91 verbose addNamed [ 'gulp-jshint', '^1.8.4' ]
+92 verbose addNamed [ null, '>=1.8.4-0 <2.0.0-0' ]
+93 verbose cache add name="gulp-uglify" spec="^1.1.0" args=["gulp-uglify","^1.1.0"]
+94 verbose parsed url { protocol: null,
+94 verbose parsed url   slashes: null,
+94 verbose parsed url   auth: null,
+94 verbose parsed url   host: null,
+94 verbose parsed url   port: null,
+94 verbose parsed url   hostname: null,
+94 verbose parsed url   hash: null,
+94 verbose parsed url   search: null,
+94 verbose parsed url   query: null,
+94 verbose parsed url   pathname: '^1.1.0',
+94 verbose parsed url   path: '^1.1.0',
+94 verbose parsed url   href: '^1.1.0' }
+95 verbose addNamed [ 'gulp-uglify', '^1.1.0' ]
+96 verbose addNamed [ null, '>=1.1.0-0 <2.0.0-0' ]
+97 verbose cache add name="gulp-less" spec="^1.3.5" args=["gulp-less","^1.3.5"]
+98 verbose parsed url { protocol: null,
+98 verbose parsed url   slashes: null,
+98 verbose parsed url   auth: null,
+98 verbose parsed url   host: null,
+98 verbose parsed url   port: null,
+98 verbose parsed url   hostname: null,
+98 verbose parsed url   hash: null,
+98 verbose parsed url   search: null,
+98 verbose parsed url   query: null,
+98 verbose parsed url   pathname: '^1.3.5',
+98 verbose parsed url   path: '^1.3.5',
+98 verbose parsed url   href: '^1.3.5' }
+99 verbose addNamed [ 'gulp-less', '^1.3.5' ]
+100 verbose addNamed [ null, '>=1.3.5-0 <2.0.0-0' ]
+101 verbose cache add name="bower-requirejs" spec="^1.1.0" args=["bower-requirejs","^1.1.0"]
+102 verbose parsed url { protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: '^1.1.0',
+102 verbose parsed url   path: '^1.1.0',
+102 verbose parsed url   href: '^1.1.0' }
+103 verbose addNamed [ 'bower-requirejs', '^1.1.0' ]
+104 verbose addNamed [ null, '>=1.1.0-0 <2.0.0-0' ]
+105 verbose cache add name="gulp-inject" spec="git://github.com/benweet/gulp-inject.git#8bd702d143a578e3b44290d82612ab808ee17281" args=["gulp-inject","git://github.com/benweet/gulp-inject.git#8bd702d143a578e3b44290d82612ab808ee17281"]
+106 verbose parsed url { protocol: 'git:',
+106 verbose parsed url   slashes: true,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: 'github.com',
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: 'github.com',
+106 verbose parsed url   hash: '#8bd702d143a578e3b44290d82612ab808ee17281',
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: '/benweet/gulp-inject.git',
+106 verbose parsed url   path: '/benweet/gulp-inject.git',
+106 verbose parsed url   href: 'git://github.com/benweet/gulp-inject.git#8bd702d143a578e3b44290d82612ab808ee17281' }
+107 verbose cache add name="run-sequence" spec="^0.3.6" args=["run-sequence","^0.3.6"]
+108 verbose parsed url { protocol: null,
+108 verbose parsed url   slashes: null,
+108 verbose parsed url   auth: null,
+108 verbose parsed url   host: null,
+108 verbose parsed url   port: null,
+108 verbose parsed url   hostname: null,
+108 verbose parsed url   hash: null,
+108 verbose parsed url   search: null,
+108 verbose parsed url   query: null,
+108 verbose parsed url   pathname: '^0.3.6',
+108 verbose parsed url   path: '^0.3.6',
+108 verbose parsed url   href: '^0.3.6' }
+109 verbose addNamed [ 'run-sequence', '^0.3.6' ]
+110 verbose addNamed [ null, '>=0.3.6-0 <0.4.0-0' ]
+111 verbose cache add name="gulp-clean" spec="^0.3.1" args=["gulp-clean","^0.3.1"]
+112 verbose parsed url { protocol: null,
+112 verbose parsed url   slashes: null,
+112 verbose parsed url   auth: null,
+112 verbose parsed url   host: null,
+112 verbose parsed url   port: null,
+112 verbose parsed url   hostname: null,
+112 verbose parsed url   hash: null,
+112 verbose parsed url   search: null,
+112 verbose parsed url   query: null,
+112 verbose parsed url   pathname: '^0.3.1',
+112 verbose parsed url   path: '^0.3.1',
+112 verbose parsed url   href: '^0.3.1' }
+113 verbose addNamed [ 'gulp-clean', '^0.3.1' ]
+114 verbose addNamed [ null, '>=0.3.1-0 <0.4.0-0' ]
+115 verbose cache add [ 'gulp-bump@^0.1.11', null ]
+116 verbose cache add name=undefined spec="gulp-bump@^0.1.11" args=["gulp-bump@^0.1.11",null]
+117 verbose parsed url { protocol: null,
+117 verbose parsed url   slashes: null,
+117 verbose parsed url   auth: null,
+117 verbose parsed url   host: null,
+117 verbose parsed url   port: null,
+117 verbose parsed url   hostname: null,
+117 verbose parsed url   hash: null,
+117 verbose parsed url   search: null,
+117 verbose parsed url   query: null,
+117 verbose parsed url   pathname: 'gulp-bump@^0.1.11',
+117 verbose parsed url   path: 'gulp-bump@^0.1.11',
+117 verbose parsed url   href: 'gulp-bump@^0.1.11' }
+118 verbose cache add [ 'gulp-util@^3.0.1', null ]
+119 verbose cache add name=undefined spec="gulp-util@^3.0.1" args=["gulp-util@^3.0.1",null]
+120 verbose parsed url { protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: 'gulp-util@^3.0.1',
+120 verbose parsed url   path: 'gulp-util@^3.0.1',
+120 verbose parsed url   href: 'gulp-util@^3.0.1' }
+121 verbose cache add [ 'knox@^0.9.1', null ]
+122 verbose cache add name=undefined spec="knox@^0.9.1" args=["knox@^0.9.1",null]
+123 verbose parsed url { protocol: null,
+123 verbose parsed url   slashes: null,
+123 verbose parsed url   auth: null,
+123 verbose parsed url   host: null,
+123 verbose parsed url   port: null,
+123 verbose parsed url   hostname: null,
+123 verbose parsed url   hash: null,
+123 verbose parsed url   search: null,
+123 verbose parsed url   query: null,
+123 verbose parsed url   pathname: 'knox@^0.9.1',
+123 verbose parsed url   path: 'knox@^0.9.1',
+123 verbose parsed url   href: 'knox@^0.9.1' }
+124 verbose cache add [ 'mime@^1.2.11', null ]
+125 verbose cache add name=undefined spec="mime@^1.2.11" args=["mime@^1.2.11",null]
+126 verbose parsed url { protocol: null,
+126 verbose parsed url   slashes: null,
+126 verbose parsed url   auth: null,
+126 verbose parsed url   host: null,
+126 verbose parsed url   port: null,
+126 verbose parsed url   hostname: null,
+126 verbose parsed url   hash: null,
+126 verbose parsed url   search: null,
+126 verbose parsed url   query: null,
+126 verbose parsed url   pathname: 'mime@^1.2.11',
+126 verbose parsed url   path: 'mime@^1.2.11',
+126 verbose parsed url   href: 'mime@^1.2.11' }
+127 verbose cache add [ 'event-stream@^3.1.7', null ]
+128 verbose cache add name=undefined spec="event-stream@^3.1.7" args=["event-stream@^3.1.7",null]
+129 verbose parsed url { protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: 'event-stream@^3.1.7',
+129 verbose parsed url   path: 'event-stream@^3.1.7',
+129 verbose parsed url   href: 'event-stream@^3.1.7' }
+130 verbose cache add name="gulp-replace" spec="^0.4.0" args=["gulp-replace","^0.4.0"]
+131 verbose parsed url { protocol: null,
+131 verbose parsed url   slashes: null,
+131 verbose parsed url   auth: null,
+131 verbose parsed url   host: null,
+131 verbose parsed url   port: null,
+131 verbose parsed url   hostname: null,
+131 verbose parsed url   hash: null,
+131 verbose parsed url   search: null,
+131 verbose parsed url   query: null,
+131 verbose parsed url   pathname: '^0.4.0',
+131 verbose parsed url   path: '^0.4.0',
+131 verbose parsed url   href: '^0.4.0' }
+132 verbose addNamed [ 'gulp-replace', '^0.4.0' ]
+133 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+134 silly lockFile f6704440-express-4-8-5 express@^4.8.5
+135 verbose lock express@^4.8.5 C:\Users\XPBP8114\AppData\Roaming\npm-cache\f6704440-express-4-8-5.lock
+136 silly lockFile 7c53a393-ejs-0-8-4 ejs@~0.8.4
+137 verbose lock ejs@~0.8.4 C:\Users\XPBP8114\AppData\Roaming\npm-cache\7c53a393-ejs-0-8-4.lock
+138 silly lockFile b3c6612d-request-2-40-0 request@~2.40.0
+139 verbose lock request@~2.40.0 C:\Users\XPBP8114\AppData\Roaming\npm-cache\b3c6612d-request-2-40-0.lock
+140 silly lockFile b65572b8-ssh2-0-3-5 ssh2@^0.3.5
+141 verbose lock ssh2@^0.3.5 C:\Users\XPBP8114\AppData\Roaming\npm-cache\b65572b8-ssh2-0-3-5.lock
+142 silly lockFile dbeadc4b-compression-1-0-11 compression@^1.0.11
+143 verbose lock compression@^1.0.11 C:\Users\XPBP8114\AppData\Roaming\npm-cache\dbeadc4b-compression-1-0-11.lock
+144 silly lockFile d7dfb6f1-serve-static-1-5-3 serve-static@^1.5.3
+145 verbose lock serve-static@^1.5.3 C:\Users\XPBP8114\AppData\Roaming\npm-cache\d7dfb6f1-serve-static-1-5-3.lock
+146 silly lockFile f00a0921-gulp-3-8-7 gulp@^3.8.7
+147 verbose lock gulp@^3.8.7 C:\Users\XPBP8114\AppData\Roaming\npm-cache\f00a0921-gulp-3-8-7.lock
+148 silly lockFile cce60afd-gulp-requirejs-0-1-3 gulp-requirejs@^0.1.3
+149 verbose lock gulp-requirejs@^0.1.3 C:\Users\XPBP8114\AppData\Roaming\npm-cache\cce60afd-gulp-requirejs-0-1-3.lock
+150 silly lockFile ba46c3d3-gulp-jshint-1-8-4 gulp-jshint@^1.8.4
+151 verbose lock gulp-jshint@^1.8.4 C:\Users\XPBP8114\AppData\Roaming\npm-cache\ba46c3d3-gulp-jshint-1-8-4.lock
+152 silly lockFile f336d083-gulp-uglify-1-1-0 gulp-uglify@^1.1.0
+153 verbose lock gulp-uglify@^1.1.0 C:\Users\XPBP8114\AppData\Roaming\npm-cache\f336d083-gulp-uglify-1-1-0.lock
+154 silly lockFile b3c89c43-gulp-less-1-3-5 gulp-less@^1.3.5
+155 verbose lock gulp-less@^1.3.5 C:\Users\XPBP8114\AppData\Roaming\npm-cache\b3c89c43-gulp-less-1-3-5.lock
+156 silly lockFile 1b09f65a-bower-requirejs-1-1-0 bower-requirejs@^1.1.0
+157 verbose lock bower-requirejs@^1.1.0 C:\Users\XPBP8114\AppData\Roaming\npm-cache\1b09f65a-bower-requirejs-1-1-0.lock
+158 silly lockFile e327e50c-thub-com-benweet-gulp-inject-git git://github.com/benweet/gulp-inject.git
+159 verbose lock git://github.com/benweet/gulp-inject.git C:\Users\XPBP8114\AppData\Roaming\npm-cache\e327e50c-thub-com-benweet-gulp-inject-git.lock
+160 silly lockFile 9d9b985e-run-sequence-0-3-6 run-sequence@^0.3.6
+161 verbose lock run-sequence@^0.3.6 C:\Users\XPBP8114\AppData\Roaming\npm-cache\9d9b985e-run-sequence-0-3-6.lock
+162 silly lockFile a388a01c-gulp-clean-0-3-1 gulp-clean@^0.3.1
+163 verbose lock gulp-clean@^0.3.1 C:\Users\XPBP8114\AppData\Roaming\npm-cache\a388a01c-gulp-clean-0-3-1.lock
+164 silly lockFile 2fd479cc-gulp-replace-0-4-0 gulp-replace@^0.4.0
+165 verbose lock gulp-replace@^0.4.0 C:\Users\XPBP8114\AppData\Roaming\npm-cache\2fd479cc-gulp-replace-0-4-0.lock
+166 verbose cache add name="gulp-bump" spec="^0.1.11" args=["gulp-bump","^0.1.11"]
+167 verbose parsed url { protocol: null,
+167 verbose parsed url   slashes: null,
+167 verbose parsed url   auth: null,
+167 verbose parsed url   host: null,
+167 verbose parsed url   port: null,
+167 verbose parsed url   hostname: null,
+167 verbose parsed url   hash: null,
+167 verbose parsed url   search: null,
+167 verbose parsed url   query: null,
+167 verbose parsed url   pathname: '^0.1.11',
+167 verbose parsed url   path: '^0.1.11',
+167 verbose parsed url   href: '^0.1.11' }
+168 verbose addNamed [ 'gulp-bump', '^0.1.11' ]
+169 verbose addNamed [ null, '>=0.1.11-0 <0.2.0-0' ]
+170 silly lockFile 87e1cd21-gulp-bump-0-1-11 gulp-bump@^0.1.11
+171 verbose lock gulp-bump@^0.1.11 C:\Users\XPBP8114\AppData\Roaming\npm-cache\87e1cd21-gulp-bump-0-1-11.lock
+172 verbose cache add name="gulp-util" spec="^3.0.1" args=["gulp-util","^3.0.1"]
+173 verbose parsed url { protocol: null,
+173 verbose parsed url   slashes: null,
+173 verbose parsed url   auth: null,
+173 verbose parsed url   host: null,
+173 verbose parsed url   port: null,
+173 verbose parsed url   hostname: null,
+173 verbose parsed url   hash: null,
+173 verbose parsed url   search: null,
+173 verbose parsed url   query: null,
+173 verbose parsed url   pathname: '^3.0.1',
+173 verbose parsed url   path: '^3.0.1',
+173 verbose parsed url   href: '^3.0.1' }
+174 verbose addNamed [ 'gulp-util', '^3.0.1' ]
+175 verbose addNamed [ null, '>=3.0.1-0 <4.0.0-0' ]
+176 silly lockFile f979aec2-gulp-util-3-0-1 gulp-util@^3.0.1
+177 verbose lock gulp-util@^3.0.1 C:\Users\XPBP8114\AppData\Roaming\npm-cache\f979aec2-gulp-util-3-0-1.lock
+178 verbose cache add name="knox" spec="^0.9.1" args=["knox","^0.9.1"]
+179 verbose parsed url { protocol: null,
+179 verbose parsed url   slashes: null,
+179 verbose parsed url   auth: null,
+179 verbose parsed url   host: null,
+179 verbose parsed url   port: null,
+179 verbose parsed url   hostname: null,
+179 verbose parsed url   hash: null,
+179 verbose parsed url   search: null,
+179 verbose parsed url   query: null,
+179 verbose parsed url   pathname: '^0.9.1',
+179 verbose parsed url   path: '^0.9.1',
+179 verbose parsed url   href: '^0.9.1' }
+180 verbose addNamed [ 'knox', '^0.9.1' ]
+181 verbose addNamed [ null, '>=0.9.1-0 <0.10.0-0' ]
+182 silly lockFile 9d836835-knox-0-9-1 knox@^0.9.1
+183 verbose lock knox@^0.9.1 C:\Users\XPBP8114\AppData\Roaming\npm-cache\9d836835-knox-0-9-1.lock
+184 verbose cache add name="mime" spec="^1.2.11" args=["mime","^1.2.11"]
+185 verbose parsed url { protocol: null,
+185 verbose parsed url   slashes: null,
+185 verbose parsed url   auth: null,
+185 verbose parsed url   host: null,
+185 verbose parsed url   port: null,
+185 verbose parsed url   hostname: null,
+185 verbose parsed url   hash: null,
+185 verbose parsed url   search: null,
+185 verbose parsed url   query: null,
+185 verbose parsed url   pathname: '^1.2.11',
+185 verbose parsed url   path: '^1.2.11',
+185 verbose parsed url   href: '^1.2.11' }
+186 verbose addNamed [ 'mime', '^1.2.11' ]
+187 verbose addNamed [ null, '>=1.2.11-0 <2.0.0-0' ]
+188 silly lockFile 2ee47c7e-mime-1-2-11 mime@^1.2.11
+189 verbose lock mime@^1.2.11 C:\Users\XPBP8114\AppData\Roaming\npm-cache\2ee47c7e-mime-1-2-11.lock
+190 verbose cache add name="event-stream" spec="^3.1.7" args=["event-stream","^3.1.7"]
+191 verbose parsed url { protocol: null,
+191 verbose parsed url   slashes: null,
+191 verbose parsed url   auth: null,
+191 verbose parsed url   host: null,
+191 verbose parsed url   port: null,
+191 verbose parsed url   hostname: null,
+191 verbose parsed url   hash: null,
+191 verbose parsed url   search: null,
+191 verbose parsed url   query: null,
+191 verbose parsed url   pathname: '^3.1.7',
+191 verbose parsed url   path: '^3.1.7',
+191 verbose parsed url   href: '^3.1.7' }
+192 verbose addNamed [ 'event-stream', '^3.1.7' ]
+193 verbose addNamed [ null, '>=3.1.7-0 <4.0.0-0' ]
+194 silly lockFile ad3ee0f0-event-stream-3-1-7 event-stream@^3.1.7
+195 verbose lock event-stream@^3.1.7 C:\Users\XPBP8114\AppData\Roaming\npm-cache\ad3ee0f0-event-stream-3-1-7.lock
+196 silly addNameRange { name: 'express', range: '>=4.8.5-0 <5.0.0-0', hasData: false }
+197 silly addNameRange { name: 'ssh2', range: '>=0.3.5-0 <0.4.0-0', hasData: false }
+198 silly addNameRange { name: 'gulp-requirejs',
+198 silly addNameRange   range: '>=0.1.3-0 <0.2.0-0',
+198 silly addNameRange   hasData: false }
+199 silly addNameRange { name: 'serve-static',
+199 silly addNameRange   range: '>=1.5.3-0 <2.0.0-0',
+199 silly addNameRange   hasData: false }
+200 silly addNameRange { name: 'compression',
+200 silly addNameRange   range: '>=1.0.11-0 <2.0.0-0',
+200 silly addNameRange   hasData: false }
+201 silly addNameRange { name: 'gulp', range: '>=3.8.7-0 <4.0.0-0', hasData: false }
+202 silly addNameRange { name: 'ejs', range: '>=0.8.4-0 <0.9.0-0', hasData: false }
+203 silly addNameRange { name: 'gulp-jshint',
+203 silly addNameRange   range: '>=1.8.4-0 <2.0.0-0',
+203 silly addNameRange   hasData: false }
+204 silly addNameRange { name: 'gulp-less',
+204 silly addNameRange   range: '>=1.3.5-0 <2.0.0-0',
+204 silly addNameRange   hasData: false }
+205 silly addNameRange { name: 'run-sequence',
+205 silly addNameRange   range: '>=0.3.6-0 <0.4.0-0',
+205 silly addNameRange   hasData: false }
+206 verbose addRemoteGit [ 'git://github.com/benweet/gulp-inject.git',
+206 verbose addRemoteGit   '8bd702d143a578e3b44290d82612ab808ee17281' ]
+207 silly addNameRange { name: 'request',
+207 silly addNameRange   range: '>=2.40.0-0 <2.41.0-0',
+207 silly addNameRange   hasData: false }
+208 silly addNameRange { name: 'gulp-replace',
+208 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+208 silly addNameRange   hasData: false }
+209 silly addNameRange { name: 'gulp-uglify',
+209 silly addNameRange   range: '>=1.1.0-0 <2.0.0-0',
+209 silly addNameRange   hasData: false }
+210 silly addNameRange { name: 'gulp-clean',
+210 silly addNameRange   range: '>=0.3.1-0 <0.4.0-0',
+210 silly addNameRange   hasData: false }
+211 silly addNameRange { name: 'bower-requirejs',
+211 silly addNameRange   range: '>=1.1.0-0 <2.0.0-0',
+211 silly addNameRange   hasData: false }
+212 silly addNameRange { name: 'knox', range: '>=0.9.1-0 <0.10.0-0', hasData: false }
+213 silly addNameRange { name: 'gulp-bump',
+213 silly addNameRange   range: '>=0.1.11-0 <0.2.0-0',
+213 silly addNameRange   hasData: false }
+214 silly addNameRange { name: 'mime', range: '>=1.2.11-0 <2.0.0-0', hasData: false }
+215 silly addNameRange { name: 'gulp-util',
+215 silly addNameRange   range: '>=3.0.1-0 <4.0.0-0',
+215 silly addNameRange   hasData: false }
+216 silly addNameRange { name: 'event-stream',
+216 silly addNameRange   range: '>=3.1.7-0 <4.0.0-0',
+216 silly addNameRange   hasData: false }
+217 verbose request where is /artifactory/api/npm/npm-virtual/express
+218 verbose request registry http://10.192.36.79:8081/
+219 verbose request id 725f2e9024afca69
+220 verbose url raw /artifactory/api/npm/npm-virtual/express
+221 verbose url resolving [ 'http://10.192.36.79:8081/',
+221 verbose url resolving   './artifactory/api/npm/npm-virtual/express' ]
+222 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/express
+223 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/express
+224 info trying registry request attempt 1 at 16:37:20
+225 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/express
+226 verbose request where is /artifactory/api/npm/npm-virtual/gulp-requirejs
+227 verbose request registry http://10.192.36.79:8081/
+228 verbose url raw /artifactory/api/npm/npm-virtual/gulp-requirejs
+229 verbose url resolving [ 'http://10.192.36.79:8081/',
+229 verbose url resolving   './artifactory/api/npm/npm-virtual/gulp-requirejs' ]
+230 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-requirejs
+231 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-requirejs
+232 info trying registry request attempt 1 at 16:37:20
+233 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-requirejs
+234 verbose request where is /artifactory/api/npm/npm-virtual/serve-static
+235 verbose request registry http://10.192.36.79:8081/
+236 verbose url raw /artifactory/api/npm/npm-virtual/serve-static
+237 verbose url resolving [ 'http://10.192.36.79:8081/',
+237 verbose url resolving   './artifactory/api/npm/npm-virtual/serve-static' ]
+238 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/serve-static
+239 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/serve-static
+240 info trying registry request attempt 1 at 16:37:20
+241 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/serve-static
+242 verbose request where is /artifactory/api/npm/npm-virtual/compression
+243 verbose request registry http://10.192.36.79:8081/
+244 verbose url raw /artifactory/api/npm/npm-virtual/compression
+245 verbose url resolving [ 'http://10.192.36.79:8081/',
+245 verbose url resolving   './artifactory/api/npm/npm-virtual/compression' ]
+246 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/compression
+247 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/compression
+248 info trying registry request attempt 1 at 16:37:20
+249 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/compression
+250 verbose request where is /artifactory/api/npm/npm-virtual/ssh2
+251 verbose request registry http://10.192.36.79:8081/
+252 verbose url raw /artifactory/api/npm/npm-virtual/ssh2
+253 verbose url resolving [ 'http://10.192.36.79:8081/',
+253 verbose url resolving   './artifactory/api/npm/npm-virtual/ssh2' ]
+254 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/ssh2
+255 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/ssh2
+256 info trying registry request attempt 1 at 16:37:20
+257 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/ssh2
+258 verbose request where is /artifactory/api/npm/npm-virtual/gulp
+259 verbose request registry http://10.192.36.79:8081/
+260 verbose url raw /artifactory/api/npm/npm-virtual/gulp
+261 verbose url resolving [ 'http://10.192.36.79:8081/',
+261 verbose url resolving   './artifactory/api/npm/npm-virtual/gulp' ]
+262 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp
+263 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp
+264 info trying registry request attempt 1 at 16:37:20
+265 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp
+266 verbose request where is /artifactory/api/npm/npm-virtual/ejs
+267 verbose request registry http://10.192.36.79:8081/
+268 verbose url raw /artifactory/api/npm/npm-virtual/ejs
+269 verbose url resolving [ 'http://10.192.36.79:8081/',
+269 verbose url resolving   './artifactory/api/npm/npm-virtual/ejs' ]
+270 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/ejs
+271 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/ejs
+272 info trying registry request attempt 1 at 16:37:20
+273 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/ejs
+274 verbose request where is /artifactory/api/npm/npm-virtual/gulp-jshint
+275 verbose request registry http://10.192.36.79:8081/
+276 verbose url raw /artifactory/api/npm/npm-virtual/gulp-jshint
+277 verbose url resolving [ 'http://10.192.36.79:8081/',
+277 verbose url resolving   './artifactory/api/npm/npm-virtual/gulp-jshint' ]
+278 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-jshint
+279 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-jshint
+280 info trying registry request attempt 1 at 16:37:20
+281 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-jshint
+282 verbose request where is /artifactory/api/npm/npm-virtual/run-sequence
+283 verbose request registry http://10.192.36.79:8081/
+284 verbose url raw /artifactory/api/npm/npm-virtual/run-sequence
+285 verbose url resolving [ 'http://10.192.36.79:8081/',
+285 verbose url resolving   './artifactory/api/npm/npm-virtual/run-sequence' ]
+286 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/run-sequence
+287 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/run-sequence
+288 info trying registry request attempt 1 at 16:37:20
+289 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/run-sequence
+290 verbose request where is /artifactory/api/npm/npm-virtual/request
+291 verbose request registry http://10.192.36.79:8081/
+292 verbose url raw /artifactory/api/npm/npm-virtual/request
+293 verbose url resolving [ 'http://10.192.36.79:8081/',
+293 verbose url resolving   './artifactory/api/npm/npm-virtual/request' ]
+294 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/request
+295 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/request
+296 info trying registry request attempt 1 at 16:37:20
+297 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/request
+298 verbose request where is /artifactory/api/npm/npm-virtual/gulp-replace
+299 verbose request registry http://10.192.36.79:8081/
+300 verbose url raw /artifactory/api/npm/npm-virtual/gulp-replace
+301 verbose url resolving [ 'http://10.192.36.79:8081/',
+301 verbose url resolving   './artifactory/api/npm/npm-virtual/gulp-replace' ]
+302 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-replace
+303 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-replace
+304 info trying registry request attempt 1 at 16:37:20
+305 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-replace
+306 verbose request where is /artifactory/api/npm/npm-virtual/gulp-uglify
+307 verbose request registry http://10.192.36.79:8081/
+308 verbose url raw /artifactory/api/npm/npm-virtual/gulp-uglify
+309 verbose url resolving [ 'http://10.192.36.79:8081/',
+309 verbose url resolving   './artifactory/api/npm/npm-virtual/gulp-uglify' ]
+310 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-uglify
+311 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-uglify
+312 info trying registry request attempt 1 at 16:37:20
+313 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-uglify
+314 verbose request where is /artifactory/api/npm/npm-virtual/gulp-less
+315 verbose request registry http://10.192.36.79:8081/
+316 verbose url raw /artifactory/api/npm/npm-virtual/gulp-less
+317 verbose url resolving [ 'http://10.192.36.79:8081/',
+317 verbose url resolving   './artifactory/api/npm/npm-virtual/gulp-less' ]
+318 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-less
+319 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-less
+320 info trying registry request attempt 1 at 16:37:20
+321 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-less
+322 verbose request where is /artifactory/api/npm/npm-virtual/gulp-clean
+323 verbose request registry http://10.192.36.79:8081/
+324 verbose url raw /artifactory/api/npm/npm-virtual/gulp-clean
+325 verbose url resolving [ 'http://10.192.36.79:8081/',
+325 verbose url resolving   './artifactory/api/npm/npm-virtual/gulp-clean' ]
+326 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-clean
+327 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-clean
+328 info trying registry request attempt 1 at 16:37:20
+329 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-clean
+330 verbose request where is /artifactory/api/npm/npm-virtual/bower-requirejs
+331 verbose request registry http://10.192.36.79:8081/
+332 verbose url raw /artifactory/api/npm/npm-virtual/bower-requirejs
+333 verbose url resolving [ 'http://10.192.36.79:8081/',
+333 verbose url resolving   './artifactory/api/npm/npm-virtual/bower-requirejs' ]
+334 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/bower-requirejs
+335 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/bower-requirejs
+336 info trying registry request attempt 1 at 16:37:20
+337 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/bower-requirejs
+338 verbose request where is /artifactory/api/npm/npm-virtual/knox
+339 verbose request registry http://10.192.36.79:8081/
+340 verbose url raw /artifactory/api/npm/npm-virtual/knox
+341 verbose url resolving [ 'http://10.192.36.79:8081/',
+341 verbose url resolving   './artifactory/api/npm/npm-virtual/knox' ]
+342 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/knox
+343 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/knox
+344 info trying registry request attempt 1 at 16:37:20
+345 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/knox
+346 verbose request where is /artifactory/api/npm/npm-virtual/gulp-bump
+347 verbose request registry http://10.192.36.79:8081/
+348 verbose url raw /artifactory/api/npm/npm-virtual/gulp-bump
+349 verbose url resolving [ 'http://10.192.36.79:8081/',
+349 verbose url resolving   './artifactory/api/npm/npm-virtual/gulp-bump' ]
+350 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-bump
+351 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-bump
+352 info trying registry request attempt 1 at 16:37:20
+353 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-bump
+354 verbose request where is /artifactory/api/npm/npm-virtual/mime
+355 verbose request registry http://10.192.36.79:8081/
+356 verbose url raw /artifactory/api/npm/npm-virtual/mime
+357 verbose url resolving [ 'http://10.192.36.79:8081/',
+357 verbose url resolving   './artifactory/api/npm/npm-virtual/mime' ]
+358 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/mime
+359 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/mime
+360 info trying registry request attempt 1 at 16:37:20
+361 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/mime
+362 verbose request where is /artifactory/api/npm/npm-virtual/gulp-util
+363 verbose request registry http://10.192.36.79:8081/
+364 verbose url raw /artifactory/api/npm/npm-virtual/gulp-util
+365 verbose url resolving [ 'http://10.192.36.79:8081/',
+365 verbose url resolving   './artifactory/api/npm/npm-virtual/gulp-util' ]
+366 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-util
+367 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-util
+368 info trying registry request attempt 1 at 16:37:20
+369 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-util
+370 verbose request where is /artifactory/api/npm/npm-virtual/event-stream
+371 verbose request registry http://10.192.36.79:8081/
+372 verbose url raw /artifactory/api/npm/npm-virtual/event-stream
+373 verbose url resolving [ 'http://10.192.36.79:8081/',
+373 verbose url resolving   './artifactory/api/npm/npm-virtual/event-stream' ]
+374 verbose url resolved http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/event-stream
+375 verbose request where is http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/event-stream
+376 info trying registry request attempt 1 at 16:37:20
+377 http GET http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/event-stream
+378 warn `git config --get remote.origin.url` returned wrong result (git://github.com/benweet/gulp-inject.git)
+379 http 401 http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/ssh2
+380 silly registry.get cb [ 401,
+380 silly registry.get   { server: 'Artifactory/3.4.2',
+380 silly registry.get     'x-artifactory-id': '4754163df42f566b:-26709ec8:14b4eaec1a6:-7ffc',
+380 silly registry.get     'www-authenticate': 'Basic realm="Artifactory Realm"',
+380 silly registry.get     'content-type': 'application/json;charset=ISO-8859-1',
+380 silly registry.get     'content-length': '80',
+380 silly registry.get     date: 'Thu, 16 Apr 2015 14:37:20 GMT',
+380 silly registry.get     'proxy-connection': 'keep-alive',
+380 silly registry.get     connection: 'keep-alive' } ]
+381 http 401 http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/gulp-requirejs
+382 silly registry.get cb [ 401,
+382 silly registry.get   { server: 'Artifactory/3.4.2',
+382 silly registry.get     'x-artifactory-id': '4754163df42f566b:-26709ec8:14b4eaec1a6:-7ffc',
+382 silly registry.get     'www-authenticate': 'Basic realm="Artifactory Realm"',
+382 silly registry.get     'content-type': 'application/json;charset=ISO-8859-1',
+382 silly registry.get     'content-length': '80',
+382 silly registry.get     date: 'Thu, 16 Apr 2015 14:37:20 GMT',
+382 silly registry.get     'proxy-connection': 'keep-alive',
+382 silly registry.get     connection: 'keep-alive' } ]
+383 http 401 http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/compression
+384 silly registry.get cb [ 401,
+384 silly registry.get   { server: 'Artifactory/3.4.2',
+384 silly registry.get     'x-artifactory-id': '4754163df42f566b:-26709ec8:14b4eaec1a6:-7ffc',
+384 silly registry.get     'www-authenticate': 'Basic realm="Artifactory Realm"',
+384 silly registry.get     'content-type': 'application/json;charset=ISO-8859-1',
+384 silly registry.get     'content-length': '80',
+384 silly registry.get     date: 'Thu, 16 Apr 2015 14:37:20 GMT',
+384 silly registry.get     'proxy-connection': 'keep-alive',
+384 silly registry.get     connection: 'keep-alive' } ]
+385 http 401 http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/express
+386 silly registry.get cb [ 401,
+386 silly registry.get   { server: 'Artifactory/3.4.2',
+386 silly registry.get     'x-artifactory-id': '4754163df42f566b:-26709ec8:14b4eaec1a6:-7ffc',
+386 silly registry.get     'www-authenticate': 'Basic realm="Artifactory Realm"',
+386 silly registry.get     'content-type': 'application/json;charset=ISO-8859-1',
+386 silly registry.get     'content-length': '80',
+386 silly registry.get     date: 'Thu, 16 Apr 2015 14:37:20 GMT',
+386 silly registry.get     'proxy-connection': 'keep-alive',
+386 silly registry.get     connection: 'keep-alive' } ]
+387 http 401 http://10.192.36.79:8081/artifactory/api/npm/npm-virtual/serve-static
+388 silly registry.get cb [ 401,
+388 silly registry.get   { server: 'Artifactory/3.4.2',
+388 silly registry.get     'x-artifactory-id': '4754163df42f566b:-26709ec8:14b4eaec1a6:-7ffc',
+388 silly registry.get     'www-authenticate': 'Basic realm="Artifactory Realm"',
+388 silly registry.get     'content-type': 'application/json;charset=ISO-8859-1',
+388 silly registry.get     'content-length': '80',
+388 silly registry.get     date: 'Thu, 16 Apr 2015 14:37:20 GMT',
+388 silly registry.get     'proxy-connection': 'keep-alive',
+388 silly registry.get     connection: 'keep-alive' } ]
+389 silly lockFile b65572b8-ssh2-0-3-5 ssh2@^0.3.5
+390 silly lockFile b65572b8-ssh2-0-3-5 ssh2@^0.3.5
+391 error Error: Unauthorized
+391 error     at errorResponse (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:260:10)
+391 error     at C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:203:12
+391 error     at saved (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:167:7)
+391 error     at Object.oncomplete (fs.js:107:15)
+392 error If you need help, you may report this *entire* log,
+392 error including the npm and node versions, at:
+392 error     <http://github.com/npm/npm/issues>
+393 error System Windows_NT 6.1.7601
+394 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+395 error cwd E:\support\www\statckedit-cf
+396 error node -v v0.10.31
+397 error npm -v 1.4.23
+398 error code E401
+399 verbose exit [ 1, true ]

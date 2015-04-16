@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '0.10'
+install:
+- 'echo "web: node server.js" > Procfile'
+- npm install
+- zip -r stackedit-cf ./*
+deploy:
+  provider: releases
+  api_key:
+    secure: uIdbTn+DtFHjf2DgOnpQrmO0OK9fo73N0M4L7m5hiRZf5NRo+0j6ox7FjkWfUK4bF/DBn7jZMj7FXWW+NWHpkEO+VKIeEoIaICrJzVik9MeRKQTRV+/qGDrf+yYHE3Hq+Be7hc3gJjGGHxrBwwTW5VQnH7sOyrfzEiaupeKzR68=
+  file: stackedit-cf.zip
+  on:
+    tags: true
+    all_branches: true
