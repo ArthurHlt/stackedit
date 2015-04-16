@@ -3,7 +3,11 @@ node_js:
 - '0.10'
 install:
 - 'echo "web: node server.js" > Procfile'
+- npm install -g bower
+- bower install
 - npm install
+- cp -r node_modules app/
+- mv bower_components public/res/bower-libs
 - zip -r stackedit-cf ./*
 deploy:
   provider: releases
